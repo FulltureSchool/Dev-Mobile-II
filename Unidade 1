@@ -1,0 +1,116 @@
+Exercício 1: Comparação entre Desenvolvimento Nativo e Hibrido
+Explica as vantagens e desvantagens do desenvolvimento nativo versus híbrido em aplicativos móveis. Compare os seguintes aspectos:
+
+Performance
+Uso de recursos do dispositivo
+Flexibilidade de design
+Manutenção e atualizações
+Custo de desenvolvimento e manutenção
+Portabilidade
+Exercício 2: Tipos de Variáveis
+Crie um programa que demonstre diferentes tipos de variáveis em Dart. Use exemplos para cada tipo:
+
+void main() {
+  int integer = 10;
+  double decimal = 3.14;
+  bool boolean = true;
+  String string = "Olá, mundo!";
+  List<int> list = [1, 2, 3];
+  
+  print("Inteiro: $integer");
+  print("Decimal: $decimal");
+  print("Booleano: $boolean");
+  print("String: $string");
+  print("Lista: ${list.join(', ')}");
+}
+Exercício 3: Interpolação de Strings
+Escreva um programa que utilize interpolação de strings para exibir informações sobre um usuário fictício:
+
+void main() {
+  String nome = "João";
+  int idade = 30;
+  String cidade = "Rio de Janeiro";
+  
+  print("Meu nome é $nome, tenho $idade anos e moro em $cidade.");
+}
+Exercício 4: Operadores Aritméticos
+Crie uma calculadora simples usando operadores aritméticos básicos (+, -, *, /):
+
+void main() {
+  num numero1 = 10;
+  num numero2 = 5;
+  
+  print("Adição: ${numero1 + numero2}");
+  print("Subtração: ${numero1 - numero2}");
+  print("Multiplicação: ${numero1 * numero2}");
+  print("Divisão: ${(numero1 / numero2).toStringAsFixed(2)}");
+}
+Exercício 5: Funções com e sem Parâmetros
+Crie duas funções: uma que aceita parâmetros e outra que não aceita. Use-as para calcular o área de um triângulo:
+
+void main() {
+  void semParametros() => print("Esta função não recebe parâmetros");
+  
+  num areaComParametros(num base, num altura) => (base * altura) / 2;
+  
+  semParametros();
+  print(areaComParametros(5, 3));
+}
+Exercício 6: Vantagens e Desvantagens de Aplicativos Nativos vs Híbridos
+Compare os seguintes aspectos:
+
+Performance
+Uso de recursos do dispositivo
+Flexibilidade de design
+Manutenção e atualizações
+Custo de desenvolvimento e manutenção
+Portabilidade
+Exercício 7: Tipos de Variáveis em Dart
+Crie um programa que demonstre diferentes tipos de variáveis em Dart. Use exemplos para cada tipo:
+
+void main() {
+  int integer = 10;
+  double decimal = 3.14;
+  bool boolean = true;
+  String string = "Olá, mundo!";
+  List<int> list = [1, 2, 3];
+  
+  print("Inteiro: $integer");
+  print("Decimal: $decimal");
+  print("Booleano: $boolean");
+  print("String: $string");
+  print("Lista: ${list.join(', ')}");
+}
+Exercício 8: Interpolação de Strings em Dart
+Escreva um programa que utilize interpolação de strings para exibir informações sobre um usuário fictício:
+
+void main() {
+  String nome = "João";
+  int idade = 30;
+  String cidade = "Rio de Janeiro";
+  
+  print("Meu nome é $nome, tenho $idade anos e moro em $cidade.");
+}
+Exercício 9: Operadores Aritméticos em Dart
+Crie uma calculadora simples usando operadores aritméticos básicos (+, -, *, /):
+
+void main() {
+  num numero1 = 10;
+  num numero2 = 5;
+  
+  print("Adição: ${numero1 + numero2}");
+  print("Subtração: ${numero1 - numero2}");
+  print("Multiplicação: ${numero1 * numero2}");
+  print("Divisão: ${(numero1 / numero2).toStringAsFixed(2)}");
+}
+Exercício 10: Funções com e sem Parâmetros em Dart
+Crie duas funções: uma que aceita parâmetros e outra que não aceita. Use-as para calcular o área de um triângulo:
+
+void main() {
+  void semParametros() => print("Esta função não recebe parâmetros");
+  
+  num areaComParametros(num base, num altura) => (base * altura) / 2;
+  
+  semParametros();
+  print(areaComParametros(5, 3));
+}
